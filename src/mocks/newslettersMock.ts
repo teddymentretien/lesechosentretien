@@ -1,4 +1,6 @@
-export const NEWSLETTER_ITEMS = [
+import { NewsletterItem } from '../models/newsletters';
+
+export const NEWSLETTER_ITEMS: NewsletterItem[] = [
   {
     id: "000000000000000000000000",
     image: "https://via.placeholder.com/150",
