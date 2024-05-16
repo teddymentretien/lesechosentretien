@@ -21,8 +21,6 @@ export const USER_WITH_MULTIPLE_SUBSCRIPTION: User = {
   subscriptions: ["RIGHT_1", "RIGHT_2"],
 };
 
-// plus
 export const useUser = (): User => {
-  // return the desired user mock here
   return USER_WITH_ONE_SUBSCRIPTION;
 };

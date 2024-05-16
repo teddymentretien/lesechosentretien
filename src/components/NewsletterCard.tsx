@@ -1,7 +1,5 @@
-// src/components/NewsletterCard.tsx
 import React from 'react';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
@@ -36,8 +34,6 @@ const NewsletterCard: React.FC<Props> = ({ title, description, imageSrc, buttonT
             {buttonText}
           </Button>
       </CardContent>
-      {/* <CardActions sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', paddinTop: 0}}>
-      </CardActions> */}
     </Card>
   );
 };
